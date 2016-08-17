@@ -1,0 +1,82 @@
+body{
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    
+}
+
+#header-nav{
+    background-color: gray;
+    border-radius: 0;
+    border-color: black;
+    border-width: 2px;
+    
+}
+
+.container{
+    margin-left: 0px;
+}
+
+.navbar-brand h1{
+    color: black;
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-top: 0;
+    margin-bottom: 0; 
+    text-align: left;
+}
+
+#header-nav .navbar-toggle{
+    border: 2px solid black;
+    padding: 5px 3px;
+    
+}
+
+#header-nav .icon-bar{
+    background-color: black;
+    height: 5px;
+    width: 27px;
+}
+
+#nav-list{
+    text-align: center;
+    font-size: 1.2em;
+    font-weight: 500;
+}
+
+#menu-bar{
+    margin: 5px 0px;
+    height: 1px;
+    border-top:2px solid black;
+}
+
+#tall-text h4{
+    text-align: center;
+    font-weight: 600;
+    margin: 0;
+}
+
+#tall-text{
+    height: 1000px;
+    background-color: #b3b3b3;
+    width: 100%;
+    padding: 5px 15px;
+    
+}
+
+/* Mobile (xs) */
+@media (max-width: 767px) {
+    #mobile-menu{
+        background-color: #f2f2f2; 
+        border: 2px solid black;
+    }
+}
+
+/* Tablet (sm) */
+@media (min-width: 768px) and (max-width: 991px) {
+  
+}
+
+/* Desktop (md) */
+@media (min-width: 992px){
+
+
+}
